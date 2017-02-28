@@ -3,8 +3,8 @@
 #include <math.h>
 int sqr(n);
 	int y;
-
-
+	y=(n*n);
+	return y;
 int main () {
 
 
