@@ -1,12 +1,15 @@
 #include <stdlib.h>
-#include <stdoi.h>
+#include <stdio.h>
 #include <math.h>
-int sqr(n);
+int sqr(int n){
 	int y;
 	y=(n*n);
-	return y;
+	return y;}
 int main () {
-
-
+	int x;
+	printf("Vvedite chislo: ");
+	scanf("%d",&x);
+	x=sqr(x);
+	printf("\nKvadrat raven %d",x);
 system("pause");
 }
