@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-int sqr(int n){
+int cub(int n){
 	int y;
-	y=(n*n);
+	y=(n*n*n);
 	return y;}
 int main () {
 	int x;
