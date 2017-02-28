@@ -10,6 +10,6 @@ int main () {
 	printf("Vvedite chislo: ");
 	scanf("%d",&x);
 	x=cub(x);
-	printf("\nKvadrat raven %d",x);
+	printf("\nCub %d",x);
 system("pause");
 }
