@@ -9,7 +9,7 @@ int main () {
 	int x;
 	printf("Vvedite chislo: ");
 	scanf("%d",&x);
-	x=sqr(x);
+	x=cub(x);
 	printf("\nKvadrat raven %d",x);
 system("pause");
 }
